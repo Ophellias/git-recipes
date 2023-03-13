@@ -1,0 +1,54 @@
+* {
+    background-color: #fafafa;
+    font-size: 15px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .pork, .stew, .salad, .rice {
+    border: 1px solid black;
+    align: center;
+  }
+  
+  #description, #ingredients, #steps, #credit {
+    border: 1px solid black;
+  }
+  
+  .created {
+    font-size: 5px;
+    font-transform: italics;
+    border: 1px solid black;
+  }
+  
+  .food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 200px;
+  }
+  #description > #food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .credit {
+    align: center;
+  }
+
+  .created > .logo {
+    height: auto;
+    width: 100px;
+  }
