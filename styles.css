@@ -1,54 +1,146 @@
 * {
-    background-color: #fafafa;
-    font-size: 15px;
-  }
-  h1{
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  
-  .header {
-    text-align: center;
-  }
-  
-  .pork, .stew, .salad, .rice {
-    border: 1px solid black;
-    align: center;
-  }
-  
-  #description, #ingredients, #steps, #credit {
-    border: 1px solid black;
-  }
-  
-  .created {
-    font-size: 5px;
-    font-transform: italics;
-    border: 1px solid black;
-  }
-  
-  .food {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 200px;
-  }
-  #description > #food {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  background-color: #ffffff;
+  font-size: 15px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 20px;
+}
 
-  .credit {
-    align: center;
-  }
+.header {
+  text-align: center;
+  margin-top: auto;
+}
 
-  .created > .logo {
-    height: auto;
-    width: 100px;
-  }
+.sweet {
+  border-radius: 20px;
+}
+
+.recipes {
+  margin: auto;
+}
+
+.pork, .stew, .salad, .rice {
+  border: 1px solid black;
+  background-color: white;
+  align: center;
+  width: 300px;
+  height: 400px;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.pork {
+  margin-left: 270px;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.stew {
+  margin-left: 620px;
+  margin-top: -415px;
+  background-color: white;
+}
+
+.salad {
+  margin-left: 970px;
+  margin-top: -415px;
+  background-color: white;
+}
+
+.rice {
+  margin-left: 1320px;
+  margin-top: -415px;
+  background-color: white;
+}
+
+.blurb, .info {
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom:25px;
+  background-color: white;
+}
+
+#description, #ingredients, #steps, #credit {
+  border: 1px solid black;
+  align: justify;
+  width: 500px;
+  height: 450px;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+#description {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#ingredients {
+  margin-top:50px;
+  margin-left: 200px;
+  text-align: justify;
+}
+
+#steps {
+  margin-top: -984px;
+  margin-left: 750px;
+  text-align: justify;
+}
+
+#credit {
+  margin-left: 750px;
+  margin-top: 50px;
+  height: 100px;
+}
+
+.created {
+  font-size: 10px;
+  text-transform: italics;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  text-align: center;
+  padding: 20px 10px;
+}
+.for {
+  margin-top: 10px;
+  margin-left: -120px;
+}
+
+.odin {
+  margin-top: -5px;
+  font-size: 10px;
+}
+
+.me {
+  margin-top: -17px;
+  margin-left: 115px;
+}
+
+.food {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: white;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  margin-top: -200px;
+  margin-left: -10px;
+  float: center;
+}
